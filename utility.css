@@ -1,0 +1,49 @@
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.border {
+  border: 0.1rem solid #000;
+}
+
+.ogclr {
+  color: #ffa726;
+}
+
+.tac {
+  text-align: center;
+}
+
+.btnOtrs {
+  height: 5.4rem;
+  width: 18.4rem;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #ffa726;
+  color: #fff;
+  font-size: 2.6rem;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.akjghjeerahj {
+  margin: 9rem 0 0 0 !important;
+}
+
+.aojnjiea {
+  margin: 0 !important;
+}

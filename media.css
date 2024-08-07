@@ -1,0 +1,164 @@
+@media (max-width: 600px) {
+  #navbar {
+    width: 100%;
+  }
+
+  #navbar nav a.ageagea {
+    margin: 0 2rem;
+  }
+
+  #hero .col-md-6.right img {
+    display: none;
+  }
+
+  #aboutUs .col-md-6.left img {
+    height: auto;
+    width: 20rem;
+  }
+
+  #aboutUs h3.ajfgvb5reg {
+    text-align: center;
+  }
+
+  #expSpe .col-md-3 {
+    margin: 1.3rem 0;
+  }
+
+  #expSpe .col-md-3 h3,
+  #expSpe .col-md-3 h4 {
+    font-size: 2.4rem;
+  }
+
+  #customDesign .uprs h3 {
+    font-size: 2.8rem;
+  }
+
+  #customDesign .pgrs h6 {
+    font-size: 2.1rem;
+  }
+
+  #customDesign h2 {
+    font-size: 3rem;
+  }
+
+  #comeSeeUs .col-md-6.right {
+    padding: 0 0 4rem 0;
+  }
+
+  #cakeGallery img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  #teamMember .cnct .card {
+    margin: 2rem 0;
+  }
+
+  #contactUs {
+    min-height: 30rem;
+  }
+
+  #footer .col-md-6 {
+    margin: 1rem 0;
+  }
+
+  #footer .aiaebh .phone svg,
+  #footer .aiaebh .email svg {
+    margin: 0 0.9rem -0.4rem 2rem;
+  }
+
+  #footer .aiaebh .phone span,
+  #footer .aiaebh .email span {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  #hero .col-md-6.right img {
+    display: none;
+  }
+
+  #expSpe .col-md-3 {
+    margin: 1.3rem 0;
+  }
+
+  #expSpe .col-md-3 h3,
+  #expSpe .col-md-3 h4 {
+    font-size: 2.4rem;
+  }
+
+  #customDesign .uprs h3 {
+    font-size: 2.8rem;
+  }
+
+  #customDesign .pgrs h6 {
+    font-size: 2.1rem;
+  }
+
+  #customDesign h2 {
+    font-size: 3rem;
+  }
+
+  #comeSeeUs .col-md-6.right {
+    padding: 0 0 4rem 0;
+  }
+
+  #teamMember .cnct .card {
+    margin: 2rem 6rem;
+  }
+
+  #contactUs {
+    min-height: 30rem;
+  }
+
+  #footer .col-md-6 {
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  #navbar nav ul li {
+    margin: 0 9rem;
+  }
+
+  #aboutUs .col-md-6.left img {
+    height: 38rem;
+  }
+
+  #aboutUs .col-md-6.right {
+    margin: 1rem 0;
+  }
+
+  #aboutUs .col-md-6.right .acheve h4 {
+    font-size: 1.2rem;
+  }
+
+  #expSpe .col-md-3 h3,
+  #expSpe .col-md-3 h4 {
+    font-size: 1.6rem;
+  }
+
+  #contactUs {
+    min-height: 30rem;
+  }
+
+  #footer .aiaebh .row {
+    text-align: center;
+  }
+
+  #footer .aiaebh .phone svg,
+  #footer .aiaebh .email svg {
+    margin: 0 0.9rem -0.4rem 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #contactUs {
+    min-height: 30rem;
+  }
+
+  #expSpe .col-md-3 h3,
+  #expSpe .col-md-3 h4 {
+    font-size: 2.2rem;
+  }
+}
