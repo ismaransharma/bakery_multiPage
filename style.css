@@ -21,9 +21,31 @@ body {
   --font: #252525;
 }
 
+/* Top Header Css Starts Here */
+#topHeader {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--font);
+  color: #fff;
+}
+
+#topHeader .col-md-6.tae a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#topHeader .col-md-6.tae svg,
+#topHeader .col-md-6.tae span {
+  font-size: 1.6rem;
+}
+/* Top Header Css Ends Here */
+
 /* Navbar Css starts Here */
 #navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -353,16 +375,19 @@ body {
 
 /* Menus Page Css Starts Here */
 
-#menus .col-md-4 {
+#menus .col-md-4,
+#relatedProduct .col-md-4 {
   margin: 1rem 0;
 }
 
-#menus .col-md-4 a {
+#menus .col-md-4 a,
+#relatedProduct .col-md-4 a {
   text-decoration: none;
   color: #252525;
 }
 
-#menus .box {
+#menus .box,
+#relatedProduct .box {
   height: 34rem;
   width: 30rem;
   border: none;
@@ -370,38 +395,122 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-#menus .box:hover {
+#menus .box:hover,
+#relatedProduct .box:hover {
   box-shadow: 0.1rem 0.1rem 0.5rem #252525;
   cursor: pointer;
 }
 
-#menus .box:hover img {
+#menus .box:hover img,
+#relatedProduct .box:hover img {
   transform: scale(1.1);
 }
 
-#menus .box .image {
+#menus .box .image,
+#relatedProduct .box .image {
   padding: 1.2rem 0;
 }
 
-#menus .box .image img {
+#menus .box .image img,
+#relatedProduct .box .image img {
   height: 24rem;
   width: 100%;
   object-fit: contain;
   transition: 0.3s ease-in-out;
 }
 
-#menus .box .titleAndPrice {
+#menus .box .titleAndPrice,
+#relatedProduct .box .titleAndPrice {
   margin: 1rem 0;
 }
 
-#menus .box .titleAndPrice h3 {
+#menus .box .titleAndPrice h3,
+#relatedProduct .box .titleAndPrice h3 {
   font-size: 2rem;
 }
 
-#menus .box .titleAndPrice h4 {
+#menus .box .titleAndPrice h4,
+#relatedProduct .box .titleAndPrice h4 {
   font-size: 1.6rem;
 }
 /* Menus Page Css Ends Here */
+
+/* Cake Details Page Css Starts Here */
+#breadcrumb {
+  height: 5rem;
+  width: 100%;
+}
+
+#breadcrumb h3 {
+  font-size: 2rem;
+  color: #252525;
+}
+
+#breadcrumb h3 a {
+  text-decoration: none;
+  color: #252525;
+}
+
+#cakeDetails .image {
+  padding: 2rem 0;
+}
+
+#cakeDetails .image img {
+  height: 30rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+#cakeDetails .title {
+  margin: 2rem 0;
+}
+
+#cakeDetails .title h2 {
+  font-size: 2.6rem;
+}
+
+#cakeDetails .title h3 {
+  font-size: 2rem;
+}
+
+#cakeDetails .input {
+  margin: 2rem 0;
+}
+
+#cakeDetails .input input {
+  font-size: 1.6rem;
+  height: 3rem;
+  width: 24%;
+  text-align: center;
+  margin: 0 2rem 0 0;
+}
+
+#cakeDetails .input select {
+  font-size: 1.6rem;
+  height: 3rem;
+  width: 20%;
+}
+
+#cakeDetails .buttons button {
+  height: 3rem;
+  width: 12rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  margin: 0 1rem;
+}
+
+#cakeDetails .buttons .addToCart {
+  background-color: var(--navbar-bg);
+  color: #fff;
+}
+
+#cakeDetails .buttons .buyNow {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Cake Details Page Css Ends Here */
 
 /* contact Us Page Css Starts Here */
 #comeSeeUs .geaafe iframe {

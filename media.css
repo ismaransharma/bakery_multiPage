@@ -1,4 +1,8 @@
 @media (max-width: 600px) {
+  #topHeader .col-md-6 {
+    width: 50%;
+  }
+
   #navbar {
     width: 100%;
   }
