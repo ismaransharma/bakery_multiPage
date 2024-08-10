@@ -351,6 +351,58 @@ body {
 }
 /* About Us Page Css Ends Here */
 
+/* Menus Page Css Starts Here */
+
+#menus .col-md-4 {
+  margin: 1rem 0;
+}
+
+#menus .col-md-4 a {
+  text-decoration: none;
+  color: #252525;
+}
+
+#menus .box {
+  height: 34rem;
+  width: 30rem;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s ease-in-out;
+}
+
+#menus .box:hover {
+  box-shadow: 0.1rem 0.1rem 0.5rem #252525;
+  cursor: pointer;
+}
+
+#menus .box:hover img {
+  transform: scale(1.1);
+}
+
+#menus .box .image {
+  padding: 1.2rem 0;
+}
+
+#menus .box .image img {
+  height: 24rem;
+  width: 100%;
+  object-fit: contain;
+  transition: 0.3s ease-in-out;
+}
+
+#menus .box .titleAndPrice {
+  margin: 1rem 0;
+}
+
+#menus .box .titleAndPrice h3 {
+  font-size: 2rem;
+}
+
+#menus .box .titleAndPrice h4 {
+  font-size: 1.6rem;
+}
+/* Menus Page Css Ends Here */
+
 /* contact Us Page Css Starts Here */
 #comeSeeUs .geaafe iframe {
   padding: 3rem 0;
